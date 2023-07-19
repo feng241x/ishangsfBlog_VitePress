@@ -9,7 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "读书笔记", link: "/markdown-examples" },
+      { text: "读书笔记", link: "/YouDontKnowJavaScript/1" },
+      { text: "JavaScript", link: "/markdown-examples" },
+      { text: "React", link: "/markdown-examples" },
+      { text: "Vue", link: "/markdown-examples" },
+      { text: "CSS", link: "/markdown-examples" },
+      { text: "算法", link: "/markdown-examples" },
+      { text: "设计模式", link: "/markdown-examples" },
+      { text: "工程化", link: "/markdown-examples" },
     ],
     logo: "./logo.svg",
     outline: "deep",
@@ -33,7 +40,25 @@ export default defineConfig({
     sidebar: [
       {
         text: "读书笔记",
-        items: [{ text: "你不知道的JavaScript", link: "/markdown-examples" }],
+        items: [
+          { text: "你不知道的JavaScript(上)", items: [
+            { text: "第一章. 作用域和闭包", items: [
+              { text: "1. 作用域是什么", link: "/YouDontKnowJavaScript/1/1.1" },
+              { text: "2. 词法作用域", link: "/YouDontKnowJavaScript/1" }
+            ]}
+          ]},
+          { text: "你不知道的JavaScript(中)", link: "/YouDontKnowJavaScript/2" },
+          { text: "你不知道的JavaScript(下)", link: "/YouDontKnowJavaScript/3" },
+          { text: "JavaScript语言精粹", link: "/JavaScriptLanguageEssentials/index" },
+        ],
+      },
+      {
+        text: "JavaScript",
+        items: [],
+      },
+      {
+        text: "CSS",
+        items: [],
       },
     ],
 

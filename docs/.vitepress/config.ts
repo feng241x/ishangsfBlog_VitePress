@@ -17,6 +17,7 @@ export default defineConfig({
       { text: "算法", link: "/markdown-examples" },
       { text: "设计模式", link: "/markdown-examples" },
       { text: "工程化", link: "/markdown-examples" },
+      { text: "mxGraph中文文档", link: "/chineseDocument/mxGraph/" },
     ],
     logo: "./logo.svg",
     outline: "deep",
@@ -59,6 +60,17 @@ export default defineConfig({
       {
         text: "CSS",
         items: [],
+      },
+      {
+        text: "mxGraph中文文档",
+        items: [
+          { text: "Editor", items: [
+            { text: "mxDefaultKeyHandler", link: "/chineseDocument/mxGraph/Editor/mxDefaultKeyHandler" },
+            { text: "mxDefaultPopupMenu", link: "/chineseDocument/mxGraph/Editor/mxDefaultPopupMenu" },
+            { text: "mxDefaultToolbar", link: "/chineseDocument/mxGraph/Editor/mxDefaultToolbar" },
+            { text: "mxEditor", link: "/chineseDocument/mxGraph/Editor/mxEditor" },
+          ] },
+        ],
       },
     ],
 
